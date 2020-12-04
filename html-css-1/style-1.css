@@ -1,0 +1,120 @@
+header {
+    background-color: salmon;
+    border: black solid 2px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 23vh;
+}
+
+header h1 {
+    width: 22.5% auto;
+    min-width: 22.5%;
+    margin: 0px 1vw 0 1.5vh;
+    padding-top: 10vh;
+    font-size: 6.5vh;
+    font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+header h2 {
+    width: 10%;
+    min-width: 10%;
+    font-size: 5vh;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    box-sizing: border-box;
+}
+
+header h3 {
+    width: 10%;
+    min-width: 10%;
+    margin:0px 5px 0px 5px;
+    font-size: 5vh;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+header h4 {
+    width: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 5vh;
+    display: inline-block;
+}
+
+.topbox {
+    border: black dotted 5px;
+    margin: 5px;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.topbox h1 {
+    font-weight: bold;
+    margin: 10vh 0px 0px 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 15%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.topbox .subsection img {
+    height: 12%;
+    width: 12%;
+    margin: 0px 0px 0px 0px;
+    float: left;
+    clear: none;
+    box-sizing: border-box;
+}
+
+.topbox .subsection p {
+    height: 80%;
+    width: 88%;
+    margin: 0px 0px 1% 0px;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+    text-align: left;
+    float: right;
+    clear: none;
+}
+
+.bottombox {
+    border: black dotted 5px;
+    margin: 5px;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.bottombox h1 {
+    font-weight: bold;
+    margin: 10vh 0px 20px 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 15%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.bottombox p {
+    height: 80%;
+    width: 88%;
+    margin: 0px 0px 1% 0px;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+    text-align: left;
+    float: left;
+    clear: none;
+}
+
+.bottombox img {
+    float: right;
+    height: 10%;
+    width: 10%;
+    clear: none;
+}
