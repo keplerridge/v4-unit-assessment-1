@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = 'Git is a program that is a version control system for tracking changes to files.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = 'GitHub is a website that hold repositories of code and other files that are uploaded.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+    description: 'Git init creates a new repository.',
+    code: 'git init'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+    description: 'Cloning is when you take a repository that is online and copy or "clone" it onto your computer.',
+    code: 'git clone'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+    description:'git status will show you what changes you have made that have not been saved to the repo or what files are not being tracked.',
+    code:'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description:'Git add prepares all of your changes or untracked files to be committed',
+    code:'git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description:'Git commit will save the changes and untracked files to your local repo but will not make any changes to the online repo, in our case the one on GitHub',
+    code:'git commit -m'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +88,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+    description:'Git remote is basically a repo that we are working on that is based somewhere else. For us GitHub is considered remote however remote is not limited to just GitHub it could be someone elses computer',
+    code:'git remote add origin'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +99,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description:'Git push takes the stuff you have staged and saved to your repo locally and saves or "pushes" it to the online repo, in our case GitHub',
+    code:'git push'
+}
