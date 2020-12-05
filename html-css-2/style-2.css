@@ -1,0 +1,182 @@
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#mainheader {
+    background-color: rgb(119, 221, 204);
+    width: 100%;
+    height: 8%;
+    font-size: 5vh;
+    padding: 2% 0px 2% 2%;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.secondheader {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.topbox {
+    border: rgb(168, 85, 168) dashed 1px;
+    height: 25%;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+}
+
+.topbox h1 {
+    background-color: rgb(88, 10, 88);
+    border: rgb(153, 2, 2) solid 2px;
+    height: 10vh;
+    width: 20%;
+    margin: 9.5% 0% 1% 1%; 
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.topbox h2 {
+    background-color: blue;
+    box-shadow: 5px 5px 5px black;
+    width: 10vh;
+    height: 10vh;
+    margin: 4% 1% 1% .5%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.topbox h3 {
+    background-color: rgb(189, 58, 119);
+    border: black solid 1px;
+    height: 20vh;
+    width: 20vh;
+    margin: 0% 1% 1% 0%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#circles {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.middlebox {
+    border: rgb(168, 85, 168) dashed 1px;
+    height: 30vh;
+    width: 98%;
+    margin: 1% 1% 0% 1%;
+    box-sizing: border-box;
+}
+
+.middlebox h1 {
+    border: black 1px solid;
+    border-radius: 50%;
+    height: 7vh;
+    width: 7vh;
+    margin-top: .5vh;
+    margin-left: 3.5vh;
+    background-color: white;
+}
+
+.middlebox h1 img {
+    height: 3.5vh;
+    width: 3.5vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+
+.middlebox h2 {
+    border: black 1px solid;
+    border-radius: 50%;
+    height: 9vh;
+    width: 9vh;
+    margin-left: 2.5vh;
+    background-color: white;
+}
+
+.middlebox h2 img {
+    height: 7vh;
+    width: 2vh;
+    padding-left: 4vh;
+    padding-top: 1vh;
+}
+
+.middlebox h3 {
+    border: black 1px solid;
+    border-radius: 50%;
+    height: 12vh;
+    width: 12vh;
+    margin-left: 1vh;
+    background-color: white;
+}
+
+#everything {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.bottombox {
+    border: rgb(168, 85, 168) dashed 1px;
+    height: 30%;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    box-sizing: border-box;
+}
+
+.bottombox div {
+    border: black solid 1px;
+    background-color: beige;
+    height: 25vh;
+    width: 25vh;
+    margin-top: 2.2vh;
+    margin-left: 2vh;
+}
+
+.bottombox div h1 {
+    border: black solid 1px;
+    background-color: green;
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vh;
+}
+
+.bottombox div h1 p {
+    background-color: rgb(151, 30, 54);
+    height: 12vh;
+    width: 12vh;
+    margin-top: 4vh;
+    margin-left: 4vh;
+}
+
+#circle {
+    background-color: blue;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    margin-top: -16.15vh;
+    margin-left: 4.2vh;
+}
+
+#fishpicture {
+    height: 3vh;
+    width: 3vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
